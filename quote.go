@@ -23,7 +23,7 @@ func Join(args ...string) string {
 const (
 	specialChars      = "\\'\"`${[|&;<>()*?!"
 	extraSpecialChars = " \t\n"
-	prefixChars       = "~"
+	prefixChars       = "~#"
 )
 
 func quote(word string, buf *bytes.Buffer) {
